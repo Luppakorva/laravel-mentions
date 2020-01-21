@@ -1,17 +1,17 @@
 {
-    "name": "jameslkingsley/laravel-mentions",
-    "description": "End-to-end mentions in Laravel 5.",
+    "name": "luppakorva/laravel-mentions",
+    "description": "Update to jameslkingsley/laravel-mentions for Laravel 6.",
     "keywords": [
         "laravel",
         "mentions"
     ],
-    "homepage": "https://github.com/jameslkingsley/laravel-mentions",
+    "homepage": "https://github.com/luppakorva/laravel-mentions",
     "license": "MIT",
     "authors": [
         {
-            "name": "James Kingsley",
-            "email": "jameslkingsley@outlook.com",
-            "homepage": "https://github.com/jameslkingsley",
+            "name": "Mike",
+            "email": "",
+            "homepage": "https://github.com/luppakorva",
             "role": "Developer"
         }
     ],
