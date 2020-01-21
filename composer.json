@@ -20,7 +20,7 @@
         "illuminate/support": "^5.5",
         "illuminate/database": "^5.5",
         "illuminate/http": "^5.5",
-        "illuminate/routing": "^5.8"
+        "illuminate/routing": "^6.12"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.4",
