@@ -24,8 +24,9 @@ class MentionController extends Controller
 
         $pool = (object) config("mentions.pools.{$request->p}");
         $model = app()->make($pool->model);
-
-        $query = $model->where($pool->column, 'LIKE', "%$request->q%");
+    
+$query = $model->select('id', 'username')->where($pool->column, 'LIKE', "$request->q%");    
+//        $query = $model->where($pool->column, 'LIKE', "%$request->q%");
 
         if ($filter = isset($pool->filter) ? $pool->filter : null) {
             $query = $filter::handle($query);
