@@ -17,10 +17,10 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/support": "^6.11",
-        "illuminate/database": "^6.11",
-        "illuminate/http": "^6.11",
-        "illuminate/routing": "^6.11"
+        "illuminate/support": "^7.26",
+        "illuminate/database": "^7.26",
+        "illuminate/http": "^7.26",
+        "illuminate/routing": "^7.26"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.4",
